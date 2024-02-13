@@ -15,8 +15,8 @@ Si vous voulez créer votre propre programme sur patate OS, il faudra procéder 
   1. Créer un fichier s'appelant "name" (sans les guillemets et il ne faut aucune éxtension au fichier) et y mettre à l'interieur le nom de votre application (pas d'éspaces ni de caractères spéciaux dans le nom)
   2. créer un fichier python, vous pourrez lui donner le nom que vous voulez et y entrer le script python de votre application. J'ai donné un éxemple de script avec les librairies sense hat dans [exemple](https://github.com/AstralArchitect/pong-patateOS/blob/main/exemple/exemple.py)
   3. créer un dossier config
-  4. créer le fichier configleft ou configup selon votre choix (configup assignera votre programme a joystick vers le haut et configleft assignera votre programme à joystick vers la gauche)
-  5. enfin créez un archive compressé tar.xz (pas gz) qui contient :
+  4. créer un fichier qui portera le nom de votre application (ex: dans le jeu pong le dossier config contiendra "pong"(sans les guillmets et aucune éxtensions)) à l'interieur de ce fichier, entrez y le contenu suivant:" /root/python-package/nom-de-votre-application " (sans les guillmets et remplacez nom-de-votre-appllication par le nom réel que vouz avez entré dans name.
+  6. enfin créez un archive compressé tar.xz (pas gz) qui contient :
        - votre fichier python
        - le dossier config
        - et le fichier name
