@@ -21,4 +21,4 @@ Si vous voulez créer votre propre programme sur patate OS, il faudra procéder 
        - le dossier config
        - et le fichier name
 ## installer votre programme : 
-Pour installer votre programme, copiez votre archive à la racine d'une clé USB et insérez la clé dans un port USB de votre ordinateur tournant sur patateOS, ensuite l'installation se fera automatiquement.
+Pour installer votre programme, copiez votre archive à la racine de la première partition d'une clé USB et insérez la clé dans un port USB de votre ordinateur tournant sur patateOS, ensuite l'installation se fera automatiquement.
